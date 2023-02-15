@@ -1,0 +1,29 @@
+@keyframes background-pan {
+    from {
+        background-position: left center;
+    }
+
+    to {
+        background-position: right center;
+    }
+}
+
+@keyframes scale {
+    from, to {
+        transform: scale(0);
+    }
+
+    50% {
+        transform: scale(1);
+    }
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(180deg);
+    }
+}

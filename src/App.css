@@ -1,0 +1,13 @@
+.App {
+  height: 100vh;
+  place-items: center;
+  display: grid;
+  background-color: rgb(10, 10, 10);
+  margin: 0;
+  overflow: hidden;
+}
+
+h1 {
+  color: white;
+  font-family: "Rubik", sans-serif;
+}
